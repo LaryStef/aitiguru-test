@@ -1,0 +1,11 @@
+[project]
+name = "aitiguru-test"
+version = "0.1.0"
+description = "API for order management"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.117.1",
+    "sqlalchemy>=2.0.43",
+    "uvicorn>=0.36.0",
+]
